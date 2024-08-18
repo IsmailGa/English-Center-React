@@ -1,0 +1,70 @@
+@keyframes moveTitle {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveHomeDescr {
+  from {
+    opacity: 0;
+    transform: translateY(-40%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveButton {
+  from {
+    opacity: 0;
+    transform: translateX(-40%);
+  }
+
+  to {
+    opacity: 1;
+
+    transform: translateX(0);
+  }
+}
+
+
+
+.home-section {
+  padding-bottom: 15%;
+
+}
+
+.mv-page-title {
+  animation: moveTitle 1s ease-in-out;
+}
+
+.home-descr {
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.mv-home-descr {
+  animation: moveHomeDescr 1s ease-in-out;
+}
+
+
+.home-btn{
+  font-size: 20px;
+  margin: 0;
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.mv-home-btn{
+  animation: moveButton 1s ease-in-out ;
+}

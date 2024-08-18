@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

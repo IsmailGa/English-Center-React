@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 900;
+  src: url("./fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("./fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: url("./fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  src: url("./fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 100;
+  src: url("./fonts/Roboto-Thin.ttf");
+}
+
+
+
+
+.hidden {
+  display: none;
+}
+
+*{
+  list-style: none ;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  font-family: "Roboto";
+  margin: 0 ;
+  padding: 0 ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+  background-color: rgb(82, 52, 180) !important;
+}
+
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+}
+
+
+
+.page-title{
+  color: white;
+
+  font-size: 50px;
+}
+
+.page-title span{
+  color: yellow;
+}

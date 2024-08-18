@@ -1,0 +1,129 @@
+@keyframes moveCtForm {
+    from {
+        opacity: 0;
+        transform: translateY(30%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes appearSquare {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes anContact {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* SQUARES */
+
+
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(241, 118, 250, 0.512);
+    border-radius: 10px;
+    position: absolute;
+    z-index: -100;
+}
+
+.mv-contact{
+    animation: 1s appearSquare ease-in-out;
+}
+
+.an-square {
+    animation: appearSquare 1s ease-in-out;
+}
+
+.square-one {
+    bottom: 10%;
+    right: 20%;
+}
+
+.square-two {
+    transform: rotate(70deg);
+    top: 0%;
+    top: 20%;
+    right: 30%;
+}
+
+.square-three {
+    transform: rotate(60deg);
+    bottom: 21%;
+    left: 0%;
+    left: 40%;
+}
+
+.square-four {
+    transform: rotate(60deg);
+    top: 20%;
+    left: 6%;
+}
+
+/* CONTACT */
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 10px;
+}
+
+.contact-descr {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.c-b {
+    color: rgb(17, 0, 255);
+}
+
+.c-o {
+    color: rgb(255, 64, 0);
+}
+
+
+.email-label span {
+    color: grey;
+    font-size: 12px;
+}
